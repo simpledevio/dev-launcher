@@ -1,0 +1,50 @@
+[
+  {
+    "name": "React",
+    "url": "https://stackblitz.com/github/simpledevio/react-training-ground?file=src/components/HelloWorld.jsx",
+    "description": "JS library from Facebook.",
+    "more": "https://github.com/simpledevio/react-training-ground"
+  },
+  {
+    "name": "TypeScript",
+    "url": "https://stackblitz.com/github/simpledevio/react-ts-training-ground",
+    "description": "Strongly typed programming language.",
+    "more": ""
+  },
+    {
+    "name": "Tailwind",
+    "url": "https://stackblitz.com/github/simpledevio/react-tailwind-training-ground",
+    "description": "Utility-first CSS framework.",
+    "more": ""
+  },
+  {
+    "name": "Redux",
+    "url": "https://stackblitz.com/github/simpledevio/react-redux-training-ground",
+    "description": "State management library for React.",
+    "more": ""
+  },
+  {
+    "name": "MUI",
+    "url": "https://stackblitz.com/github/simpledevio/react-mui-training-ground",
+    "description": "Component library for React.",
+    "more": ""
+  },
+  {
+    "name": "Next.js",
+    "url": "https://stackblitz.com/github/simpledevio/next-training-ground?file=app/page.js",
+    "description": "Meta framework for React.",
+    "more": "https://github.com/simpledevio/next-training-ground"
+  },
+  {
+    "name": "Emotion",
+    "url": "https://stackblitz.com/github/simpledevio/react-emotion-training-ground",
+    "description": "CSS styling for React.",
+    "more": ""
+  },
+  {
+    "name": "Styled Components",
+    "url": "https://stackblitz.com/github/simpledevio/react-sc-training-ground",
+    "description": "CSS styling for React.",
+    "more": ""
+  }
+]

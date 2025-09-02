@@ -1,0 +1,34 @@
+---
+layout: layouts/base.njk
+title: Dev Launcher
+currentpage: home
+---
+{% from 'macros.njk' import renderList %}
+
+<p class="">Launch practice environments for different technologies using StackBlitz or CodePen, or download them from GitHub and try them on your own.</p>
+{# <input class="form-control" type="text" placeholder="Search" aria-label="default input example" id="search"> #}
+
+<h2 class="pt-5">React</h2>
+{{ renderList(react) }}
+
+<h2 class="pt-5">Vue</h2>
+{{ renderList(vue) }}
+
+<h2 class="pt-5">Other Frameworks</h2>
+{{ renderList(js) }}
+
+<h2 class="pt-5">CSS</h2>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  {%- for item in css %}
+    <div class="col">
+    <div class="card">
+      <div class="card-body">
+        <h3 class="card-title">{{ item.name }}</h3>
+        <p class="card-text">{{ item.description }}</p>
+        <a href="{{ item.url }}" class="btn btn-primary btn-sm" target="_blank">CodePen</a>
+        {# <a href="{{ item.more }}" class="btn btn-outline-primary btn-sm" target="_blank">GitHub</a> #}
+      </div>
+    </div>
+  </div>
+  {%- endfor %}
+</div>

@@ -1,0 +1,49 @@
+{% macro renderList(collection) %}
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  {%- for item in collection %}
+    <div class="col">
+    <div class="card">
+      <div class="card-body">
+        <h3 class="card-title">{{ item.name }}</h3>
+        <p class="card-text">{{ item.description }}</p>
+        <a href="{{ item.url }}" class="btn btn-primary btn-sm me-1" target="_blank">
+          {%- if item.name == "jQuery" -%}
+            CodePen
+          {%- else -%}
+            Stackblitz
+          {%- endif -%}
+          </a>
+
+        {%- if item.name != "jQuery" -%}
+        <a href="{{ item.more }}" class="btn btn-outline-primary btn-sm" target="_blank">GitHub</a>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+  {%- endfor %}
+</div>
+{% endmacro %}
+
+{% macro linkList(links) %}
+<div class="row">
+  <div class="col-md-3">
+    <div class="list-group">
+      {% if links.website %}
+      <a href="{{ links.website }}" class="list-group-item list-group-item-action">
+        <i class="bi bi-globe"></i> Website
+      </a>
+      {% endif %}
+      {% if links.docs %}
+      <a href="{{ links.docs }}" class="list-group-item list-group-item-action">
+        <i class="bi bi-book"></i> Docs
+      </a>
+      {% endif %}
+      {% if links.tutorial %}
+      <a href="{{ links.tutorial }}" class="list-group-item list-group-item-action">
+        <i class="bi bi-mortarboard"></i> Tutorial
+      </a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% endmacro %}

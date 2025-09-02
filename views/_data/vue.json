@@ -1,0 +1,26 @@
+[
+    {
+      "name": "Vue.js",
+      "url": "https://stackblitz.com/github/simpledevio/vue-training-ground?file=src/components/HelloWorld.vue",
+      "description": "Progressive JS framework.",
+      "more": "https://github.com/simpledevio/vue-training-ground"
+    },
+    {
+      "name": "Vue Router",
+      "url": "https://stackblitz.com/github/simpledevio/vue-router-training-ground",
+      "more": "https://github.com/simpledevio/vue-router-training-ground",
+      "description": "Router for Vue."
+    },
+    {
+      "name": "Pinia",
+      "more": "https://github.com/simpledevio/vue-pinia-training-ground",
+      "description": "Store library for Vue.",
+      "url": "https://stackblitz.com/github/simpledevio/vue-pinia-training-ground"
+    },
+    {
+      "name": "Nuxt",
+      "more": "https://github.com/simpledevio/nuxt-training-ground",
+      "description": "Meta framework for Vue.",
+      "url": "https://stackblitz.com/github/simpledevio/nuxt-training-ground"
+    }
+  ]

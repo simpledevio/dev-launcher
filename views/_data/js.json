@@ -1,0 +1,26 @@
+[
+    {
+      "name": "Angular",
+      "url": "https://stackblitz.com/github/simpledevio/angular-training-ground?file=src/app/app.html",
+      "description": "JS framework from Google.",
+      "more": "https://github.com/simpledevio/angular-training-ground"
+    },
+    {
+      "name": "Svelte",
+      "url": "https://stackblitz.com/github/simpledevio/svelte-5-training-ground?file=src/lib/HelloWorld.svelte",
+      "description": "JS framework.",
+      "more": "https://github.com/simpledevio/svelte-5-training-ground"
+    },
+    {
+      "name": "Ember.js",
+      "url": "https://emberjs.com/",
+      "description": "JS framework.",
+      "more": ""
+    },
+    {
+      "name": "jQuery",
+      "url": "https://codepen.io/simpledevio/pen/qEOJeyr",
+      "description": "JS library.",
+      "more": ""
+    }
+  ]
