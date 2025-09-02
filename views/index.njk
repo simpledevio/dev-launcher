@@ -17,11 +17,11 @@ currentpage: home
 <h2 class="pt-5">Other Frameworks</h2>
 {{ renderList(js) }}
 
-<h2 class="pt-5">CSS</h2>
+<h2 class="pt-5">CSS + Misc</h2>
 <div class="row row-cols-1 row-cols-md-3 g-4">
   {%- for item in css %}
     <div class="col">
-    <div class="card">
+    <div class="card h-100">
       <div class="card-body">
         <h3 class="card-title">{{ item.name }}</h3>
         <p class="card-text">{{ item.description }}</p>
