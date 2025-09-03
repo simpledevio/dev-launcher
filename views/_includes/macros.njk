@@ -6,7 +6,7 @@
       <div class="card-body">
         <h3 class="card-title">{{ item.name }}</h3>
         <p class="card-text">{{ item.description }}</p>
-        <a href="{{ item.url }}" class="btn btn-primary btn-sm me-1" target="_blank">
+        <a href="{{ item.url }}" class="btn btn-primary btn-sm me-1 mb-1" target="_blank">
           {%- if item.name == "jQuery" -%}
             <i class="bi bi-code"></i> CodePen
           {%- else -%}
@@ -15,7 +15,7 @@
           </a>
 
         {%- if item.name != "jQuery" -%}
-        <a href="{{ item.github }}" class="btn btn-outline-primary btn-sm" target="_blank"><i class="bi bi-github"></i> GitHub</a>
+        <a href="{{ item.github }}" class="btn btn-outline-primary btn-sm mb-1" target="_blank"><i class="bi bi-github"></i> GitHub</a>
         {%- endif -%}
       </div>
     </div>
